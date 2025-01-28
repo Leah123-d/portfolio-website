@@ -40,7 +40,7 @@ body{
 
 }
 #portofolioPhoto{
-    border: solid;
+    border: inset;
     border-radius: 25px;
     height: 190px;
     width: 145px;
