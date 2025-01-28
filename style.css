@@ -4,13 +4,20 @@
     justify-content: space-evenly
 }
 #box1{
-    height: 200px;
-    width: 200px;
+    border-radius: 25px;
+    height: 160px;
+    width: 120px;
     border: solid, black;
 
 }
+img{
+    border-radius: 25px;
+    height: 160px;
+    width: 120px;
+
+}
 #box2{
-    height: 200px;
+    height: 300px;
     width: 200px;
     border: solid, black;
 }
@@ -29,4 +36,8 @@
     width: 200px;
     border: solid, black;
 }
-
+#box6{
+    height: 200px;
+    width: 200px;
+    border: solid, black;
+}
