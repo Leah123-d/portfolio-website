@@ -3,6 +3,10 @@
     flex-direction: row;
     justify-content: space-evenly
 }
+h1{
+    font-family: Merienda,Helvetica;
+    font-size: 2em;
+}
 #box1{
     border-radius: 25px;
     height: 160px;
@@ -20,16 +24,19 @@ img{
     height: 300px;
     width: 200px;
     border: solid, black;
+    background-color: #ffbd59;
 }
 #box3{
     height: 200px;
     width: 200px;
     border: solid, black;
+    background-color: #ffbd59;
 }
 #box4{
     height: 200px;
     width: 200px;
     border: solid, black;
+    background-color: #ffbd59;
 }
 #box5{
     height: 200px;
@@ -40,4 +47,13 @@ img{
     height: 200px;
     width: 200px;
     border: solid, black;
+}
+p{
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
+    color: hsl(0, 0%, 4%);
+}
+
+h2{
+    color: #4f8da4;
 }
