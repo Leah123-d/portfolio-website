@@ -1,3 +1,10 @@
+body{
+    margin:0;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
 #header{
     display: flex;
     flex-direction: row;
@@ -12,6 +19,7 @@
     flex-direction: row;
     justify-content: right;
     padding-bottom: 30px;
+    margin-right: 769.5px;
 }
 .container{
     display: flex;
@@ -31,19 +39,19 @@
     gap: 10px;
 
 }
+#portofolioPhoto{
+    border: solid;
+    border-radius: 25px;
+    height: 190px;
+    width: 145px;
+
+}
 h1{
     font-family: "Merienda",Helvetica;
     font-size: 5em;
 }
 
-img{
-    border: solid;
-    border-radius: 25px;
-    height: 190px;
-    width: 145px;
-    margin-left: 50px;
 
-}
 #box1{
     height: 350px;
     width: 250px;
@@ -84,4 +92,17 @@ p{
 h2{
     color: #4f8da4;
     font-size: 1em;
+}
+#socials{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+
+}
+#LI-logo{
+    height: 100px;
 }
