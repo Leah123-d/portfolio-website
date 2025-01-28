@@ -18,8 +18,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: right;
-    padding-bottom: 30px;
-    margin-right: 769.5px;
+    margin-right: 100px;
+    border-radius: 40px;
 }
 .container{
     display: flex;
@@ -106,3 +106,28 @@ h2{
 #LI-logo{
     height: 100px;
 }
+
+.container2 {
+    display: flex-start;
+    padding: 3px;
+  }
+
+.column-66 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 40px;
+    height: 700px;
+    padding: 20px;
+    background-color: hsla(0, 0%, 54%, 0.298);
+    display:none;
+
+  }
+  #imdb{
+    height: 70px;
+    width: 70px;
+
+  }
+
+  
