@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+#box1{
+    height: 200px;
+    width: 200px;
+    border: solid, black;
+
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    border: solid, black;
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    border: solid, black;
+}
+#box4{
+    height: 200px;
+    width: 200px;
+    border: solid, black;
+}
+#box5{
+    height: 200px;
+    width: 200px;
+    border: solid, black;
+}
+
