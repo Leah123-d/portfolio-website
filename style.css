@@ -119,7 +119,10 @@ h2{
 #LI-logo{
     height: 100px;
 }
-
+.container2:hover + .column-66{
+    display:contents;
+    color: green;
+  }
 .container2 {
     display: flex-start;
     padding: 3px;
@@ -134,9 +137,8 @@ h2{
     height: 700px;
     padding: 20px;
     background-color: hsla(0, 0%, 54%, 0.298);
-
-
   }
+
   #imdb{
     height: 70px;
     width: 70px;
