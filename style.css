@@ -4,7 +4,6 @@ body{
     display: flex;
     flex-direction: column;
     border: solid, black;
-    background-color: blueviolet;
 }
 #portofolioPhoto{
     border: inset;
