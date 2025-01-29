@@ -1,15 +1,11 @@
-const sideColumn = document.getElementsByTagName("column-66");
-console.log(sideColumn);
-
-sideColumn.addEventListener("mouseover", function(e){
-    if(sideColumn.style.display === 'none'){
-        sideColumn.style.display = 'block';
-    }
-    else{
-        sideColumn.style.display = "none";
-    }
+const sideColumn = document.querySelector("#image");
 
 
+sideColumn.addEventListener("mouseenter", function (e) {
+    document.querySelector(".column-66").style.visibility = "visible";
+  });
 
-
-});
+  sideColumn.addEventListener("mouseleave", function (e) {
+    document.querySelector(".column-66").style.visibility = "hidden";
+  });
+  
