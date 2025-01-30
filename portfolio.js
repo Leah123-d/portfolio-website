@@ -1,11 +1,5 @@
-const sideColumn = document.querySelector("#image");
+const btnToTop = document.getElementById("btnToTop");
 
-
-sideColumn.addEventListener("mouseenter", function (e) {
-    document.querySelector(".column-66").style.visibility = "visible";
-  });
-
-  sideColumn.addEventListener("mouseleave", function (e) {
-    document.querySelector(".column-66").style.visibility = "hidden";
-  });
-  
+function topFunction(){
+  window.scrollTo(0,0);
+}

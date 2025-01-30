@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leah's Portfolio</title>
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Merienda'>
+    <!--Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda">
 </head>
 <body>
     <div id="header">
@@ -13,48 +16,99 @@
             <h1>Leah's Portfolio</h1>
         </header>
     </div>
-    <div class="container2">
-        <div class="row">
-          <div class="column-66">
-            <a href="https://www.imdb.com/name/nm5245210/" target="_blank">
-                <img id="imdb" src="images/imdb-logo.png" alt="the logo for the website iMDb. The letters are set on a gold background">
+    <!--Navigation Bar-->
+    <div>
+        <nav class="mb-3 navbar navbar-expand-lg navbar-light bg-light pb-2">
+            <a class="navbar-brand" href="#">
             </a>
-          </div>
-    </div>
-    <div class="searchContainer">
-        <label for="search"> </label>
-        <input type="text" id="search" placeholder="Search...">
-        <input type="submit" for="search">
-    </div>
-    <div id="image">
-        <img id="portofolioPhoto" src="images/profilepicture.jpg" alt="A photo of Leah, an Asian woman, shown from the shoulders up. She is looking directly at the camera with an open-lipped smile. She is wearing a blue and gold dress, and her black hair, is evenly styled to fall over both shoulders. She has two nose piercings: a septum piercing and a piercing on her left nostril.">
-    </div>
-    <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">LinkedIn<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">GitHub</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Let's Keep in touch</a> <!--can we make this a pop-up form?-->
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
 
+    </div>
+    <!--Adding Bootstrap Card-->
+    <div class="row d-flex justify-content-center">
+      <div class="d-flex align-items-center card" style="width: 20rem;">
+        <img id="portofolioPhoto" src="images/profilepicture.jpg" class="card-img-top" alt="A photo of Leah, an Asian woman, shown from the shoulders up. She is looking directly at the camera with an open-lipped smile. She is wearing a blue and gold dress, and her black hair, is evenly styled to fall over both shoulders. She has two nose piercings: a septum piercing and a piercing on her left nostril.">
+        <div class="card-body">
+          <p class="card-text">Technical Support Engineer turned software engineer in training.</p>
+        </div>
+        <h5 class="card-title"> Prior Experience</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Technical Support Engineer</li>
+          <li class="list-group-item">Customer Service Manager</li>
+          <li class="list-group-item">
+            <img id="imdb" src="images/imdb-logo.png" width="30px"> 
+            Sound Editor
+          </li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+          <a href="#" class="card-link">Another link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- revising html to focus on one element at a time-->
+    <div class="container3">
         <div id="box1">
-            <p>Technical Support Engineer turned software engineer in training. Consistently delivering excellent customer service through project management, leadership, and an optimistic attitude. My diverse career experience enables me to find creative solutions for complex problems.</p>
+            <p>PLACEHOLDER TEXT</p>
         </div>
-        <div class="container3">
-            <div id="box2">
-                <h2>Prior experience:</h2>
-                <p> Technical Support Engineer, Tier 2</p>
-                <p>Customer Service manager</p>
-                <p>Sound Editor</p>
+        <div id="box2">
+          <p>PLACEHOLDER TEXT</p>
+        </div>
+        <div id="box1">
+          <p>PLACEHOLDER TEXT</p>
+        </div>
+        <!-- End of Scroll-->
+        <div>
+          <div class="card w-90 mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Thank for viewing my Portfolio!</h5>
+              <p class="card-text"></p>
+              <a href="https://www.linkedin.com/in/leah-p-8609bb73/" target="_blank"><button type="button" class="btn btn-outline-primary">LinkedIn</button></a>
+              <a href="https://github.com/Leah123-d" target="_blank"><button type="button" class="btn btn-outline-secondary">GitHub</button></a>
+              <button type="button" class="btn btn-outline-success">Success</button>
             </div>
-            <div id="box3">
-                <h2>Contact Me!</h2>
-                <p>Oakland, CA</p>
-                <p>ltputlek@gmail.com</p>
-
-            </div>
-            <div id="box5">
-                Form placeholder
-            </div>
+          </div>
         </div>
     </div>
-    <div id="socials">
-        <a href="www.linkedin.com/in/leah-p-tech" target="_blank"><img id="LI-logo" src="images/linkedin.png" alt="The logo for LinkedIn. The letters 'i' and 'n' are in white against a blue backgroud"></a>
+    <!--<div id="socials">
+        <a href="https://www.linkedin.com/in/leah-p-8609bb73/" target="_blank"><img id="LI-logo" src="images/linkedin.png" alt="The logo for LinkedIn. The letters 'i' and 'n' are in white against a blue backgroud"></a>
     </div>
+            <div class="row">
+            <div class="column-66">
+              <a href="https://www.imdb.com/name/nm5245210/" target="_blank">
+                  <img id="imdb" src="images/imdb-logo.png" alt="the logo for the website iMDb. The letters are set on a gold background">
+              </a>
+        </div>-->
     <script src="portfolio.js"></script>
+
+
 </body>
 </html>
+
