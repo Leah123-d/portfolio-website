@@ -44,8 +44,17 @@ h1{
 
     
 }
-
-
+  /* More white space between line of links */
+.card-link {
+    margin-right: 20px;
+    margin-left: 20px;
+    line-height: 1.4;
+    text-align: justify;
+}
+/* Added ID to align links */
+#column2 {
+    margin-left: 43px;
+}
 #box1{
     height: 350px;
     border-radius: 30px;
