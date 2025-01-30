@@ -4,6 +4,9 @@ body{
     display: flex;
     flex-direction: column;
     border: solid, black;
+    background-image: url(images/sw-bg.jpg);
+    background-size: contain;
+    background-origin: content-box;
 }
 
 #portofolioPhoto{
@@ -35,7 +38,8 @@ h1{
     align-items: center;
     align-content: center;
     gap: 2rem;
-    background-color: darkmagenta;
+    background-image: url(images/orangebg.jpg);
+    background-size: ;
     padding: 2rem;
 
     
