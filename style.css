@@ -3,22 +3,23 @@ body{
     height:100%;
     display: flex;
     flex-direction: column;
-    border: solid, black;
-    background-image: url(images/sw-bg.jpg);
-    background-size: contain;
-    background-origin: content-box;
 }
-
 #portofolioPhoto{
     border: inset;
     border-radius: 25px;
     height: 190px;
-    width: 145px;
+    width: 140px;
+    margin-top: 1rem;
 
 }
 
+#card{
+    background-image: url(images/sw-bg.jpg);
+    background-size: contain;
+}
+
 h1{
-    font-family: "Merienda",Helvetica;
+    font-family: "Merienda",Helvetica !important;
     font-size: 5em;
 }
 
@@ -39,40 +40,46 @@ h1{
     align-content: center;
     gap: 2rem;
     background-image: url(images/orangebg.jpg);
-    background-size: ;
+    background-size: auto;
     padding: 2rem;
-
     
 }
 
+.column1{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+    background-color: #ffbd59;
+    border: inset;
+}
+.column2{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 2rem;
+    background-color: #ef9308c0;
+    border: inset;
+    margin-left: 1rem;
+}
 
-#box1{
+#box2,#box3{
     height: 350px;
     border-radius: 30px;
+    border: inset;
     width: 100%;
     padding: 2rem;
-    padding-top: 7rem;
+    padding-top: 2rem;
     background-color: #ffbd59;
-    align-items: center;
+    align-items: center !important;
+    justify-content: center;
+    align-content: center;
 }
-#box2{
-    height: 350px;
-    border-radius: 30px;
-    width: 100%;
-    padding: 2rem;
-    padding-top: 7rem;
-    background-color: #ffbd59;
-    align-items: center;
-}
-#box3{
-    height: 350px;
-    border-radius: 30px;
-    width: 100%;
-    padding: 2rem;
-    padding-top: 7rem;
-    background-color: #ffbd59;
-    align-items: center;
-}
+
 p{
     font-size: 1em;
     font-family: Helvetica, sans-serif;
@@ -80,31 +87,41 @@ p{
 }
 
 h2{
-    color: #4f8da4;
+    font-family: "Merienda",Helvetica;
+}
+
+label{
+    font-family: "Merienda",Helvetica;
+    width: 100px;
     font-size: 1em;
 }
-#socials{
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 10px;
-
+form{
+    margin-top: 2rem;
 }
-#LI-logo{
-    height: 100px;
-}
-.column-66 {
-    display: flex;
-    float: left;
-    width: 100px;
-    height: 700px;
-    padding: 20px;
-    background-color: hsla(0, 0%, 54%, 0.298);
-    align-items: center;
-    display: none;
 
-  }
-  /*add a media query to keep columns stacked on wide view*/
+.required:after{
+    content:"*";
+    color: red;
+}
+
+@media screen and (max-width:2037px){
+    #box2{
+        margin-bottom: 500px;
+
+    }
+}
+
+@media screen and (max-width: 836px){
+    #box1{
+        margin-top: 600px;
+    }
+}
+
+@media screen and (max-width: 526px){
+    .container3{
+        margin-top: 550px;
+
+    }
+}
+
