@@ -4,9 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     border: solid, black;
-    background-image: url(images/sw-bg.jpg);
-    background-size: contain;
-    background-origin: content-box;
+
 }
 
 #portofolioPhoto{
@@ -15,6 +13,10 @@ body{
     height: 190px;
     width: 145px;
 
+}
+
+#card{
+    background-image: url(images/sw-bg.jpg);
 }
 
 h1{
@@ -39,40 +41,23 @@ h1{
     align-content: center;
     gap: 2rem;
     background-image: url(images/orangebg.jpg);
-    background-size: ;
+    background-size: auto;
     padding: 2rem;
 
     
 }
 
 
-#box1{
+#box1, #box2,#box3{
     height: 350px;
     border-radius: 30px;
     width: 100%;
     padding: 2rem;
-    padding-top: 7rem;
+    padding-top: 2rem;
     background-color: #ffbd59;
     align-items: center;
 }
-#box2{
-    height: 350px;
-    border-radius: 30px;
-    width: 100%;
-    padding: 2rem;
-    padding-top: 7rem;
-    background-color: #ffbd59;
-    align-items: center;
-}
-#box3{
-    height: 350px;
-    border-radius: 30px;
-    width: 100%;
-    padding: 2rem;
-    padding-top: 7rem;
-    background-color: #ffbd59;
-    align-items: center;
-}
+
 p{
     font-size: 1em;
     font-family: Helvetica, sans-serif;
@@ -80,8 +65,8 @@ p{
 }
 
 h2{
-    color: #4f8da4;
-    font-size: 1em;
+    font-family: "Merienda",Helvetica;;
+
 }
 #socials{
 
@@ -107,4 +92,4 @@ h2{
     display: none;
 
   }
-  /*add a media query to keep columns stacked on wide view*/
+  /*add a media query to keep columns stacked on wide view can add one for bg too*/
