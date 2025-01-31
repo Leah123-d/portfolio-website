@@ -3,19 +3,19 @@ body{
     height:100%;
     display: flex;
     flex-direction: column;
-
 }
-
 #portofolioPhoto{
     border: inset;
     border-radius: 25px;
     height: 190px;
-    width: 145px;
+    width: 140px;
+    margin-top: 1rem;
 
 }
 
 #card{
     background-image: url(images/sw-bg.jpg);
+    background-size: contain;
 }
 
 h1{
@@ -42,18 +42,42 @@ h1{
     background-image: url(images/orangebg.jpg);
     background-size: auto;
     padding: 2rem;
-
     
 }
 
-#box1,#box2,#box3{
+.column1{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+    background-color: #ffbd59;
+    border: inset;
+}
+.column2{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 2rem;
+    background-color: #ef9308c0;
+    border: inset;
+    margin-left: 1rem;
+}
+
+#box2,#box3{
     height: 350px;
     border-radius: 30px;
+    border: inset;
     width: 100%;
     padding: 2rem;
     padding-top: 2rem;
     background-color: #ffbd59;
     align-items: center !important;
+    justify-content: center;
+    align-content: center;
 }
 
 p{
@@ -74,6 +98,11 @@ label{
 
 form{
     margin-top: 2rem;
+}
+
+.required:after{
+    content:"*";
+    color: red;
 }
 
 @media screen and (max-width:2037px){

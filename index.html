@@ -28,14 +28,11 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">LinkedIn<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="https://www.linkedin.com/in/leah-p-8609bb73/" target="_blank">LinkedIn<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">GitHub</a>
+                <a class="nav-link" href="https://github.com/Leah123-d" target="_blank">GitHub</a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Let's Keep in touch</a>
-                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input type="text" id="searchbar" placeholder="Search software..." oninput="search_software()">
@@ -48,14 +45,14 @@
     <div class="d-flex align-items-center card" style="width: 20rem;">
       <img id="portofolioPhoto" src="images/profilepicture.jpg" class="card-img-top" alt="A photo of Leah, an Asian woman, shown from the shoulders up. She is looking directly at the camera with an open-lipped smile. She is wearing a blue and gold dress, and her black hair, is evenly styled to fall over both shoulders. She has two nose piercings: a septum piercing and a piercing on her left nostril.">
       <div class="card-body">
-        <p class="card-text">Technical Support Engineer turned software engineer in training.</p>
+        <p class="card-text">Technical Support Engineer turned software engineer in training. I've had a kinship with technology since childhood creating art with my first home computer. Today I am evolving my career pairing my people skills with problem solving and becoming a software engineer!</p>
       </div>
       <h5 class="card-title"> Prior Experience</h5>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">Technical Support Engineer</li>
         <li class="list-group-item">Customer Service Manager</li>
         <li class="list-group-item">
-          <img id="imdb" src="images/imdb-logo.png" width="30px"> 
+          <a href="https://www.imdb.com/name/nm5245210/" target="_blank"><img id="imdb" src="images/imdb-logo.png" width="30px"></a>
           Sound Editor
         </li>
       </ul>
@@ -68,11 +65,12 @@
   </div>
 <main>
   <div class="container3">
-      <div id="box1">
-        <h5>
+    <div class="column-wrapper">
+      <div id="box1" class="column1">
+        <h2>
           Software Experience
-        </h5>
-        <ul>
+        </h2>
+        <ul> <br>
           <li>
             Operating systems: Mac and Windows
           </li>
@@ -80,31 +78,40 @@
           <li class="software">SQL</li>
           <li class="software">Salesforce</li>
           <li class="software">Datadog</li>
-          <li class="software">Connectwise</li>
-          <li class="software">Github</li>
-          <li class="software">Metabase</li>
-          <li class="software">DBeaver</li>
-          <li class="software">Ngrok</li>
         </ul>
+        <div class="column2">
+          <ul>
+            <li class="software">Connectwise</li>
+            <li class="software">Github</li>
+            <li class="software">Metabase</li>
+            <li class="software">DBeaver</li>
+            <li class="software">Ngrok</li>
+          </ul>
+        </div>
       </div>
+    </div>
       <div id="box2">
-        <h2>Contact Me!</h2>
+        <h2>
+          Contact Me!
+        </h2>
         <p>Email: ltputlek@gmail.com</p>
         <p>Bay Area, California</p>
 
       </div>
       <div id="box3">
-        <h2>Keep in Touch!</h2>
+        <h2>
+          Keep in Touch!
+        </h2>
         <form>
-          <label for="name">full name</label>
+          <label for="name" required class="required">full name</label>
           <input type="text" id="name"><br>
-          <label for="email">email</label>
+          <label for="email" required class="required">email</label>
           <input type="text" id="email"><br>
           <label for="phoneNumber">phone number</label>
           <input type="text" id="phoneNumber"><br>
           <label for="address">address</label>
           <input type="text" id="address"><br>
-          <button type="button" class="btn btn-outline-success">Submit</button>
+          <input type="submit" class="btn btn-outline-success">
         </form>
 
 
