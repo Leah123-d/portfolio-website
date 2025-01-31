@@ -10,7 +10,6 @@ body{
     height: 190px;
     width: 140px;
     margin-top: 1rem;
-
 }
 
 #card{
@@ -32,6 +31,19 @@ h1{
     gap: 10px;
 
 }
+#header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 .container3{
     display: flex;
     flex-direction: column;
@@ -83,7 +95,7 @@ h1{
 p{
     font-size: 1em;
     font-family: Helvetica, sans-serif;
-    color: hsl(0, 0%, 4%);
+    color: #0a0a0a;
 }
 
 h2{
@@ -107,8 +119,7 @@ form{
 
 @media screen and (max-width:2037px){
     #box2{
-        margin-bottom: 500px;
-
+        margin-bottom: 150px;
     }
 }
 
@@ -124,4 +135,3 @@ form{
 
     }
 }
-
