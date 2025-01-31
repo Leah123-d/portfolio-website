@@ -34,12 +34,11 @@
                 <a class="nav-link" href="#">GitHub</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Let's Keep in touch</a> <!--can we make this a pop-up form?-->
+                  <a class="nav-link" href="#">Let's Keep in touch</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              <input type="text" id="searchbar" placeholder="Search software..." oninput="search_software()">
             </form>
           </div>
         </nav>
@@ -80,15 +79,15 @@
           <li>
             Operating systems: Mac and Windows
           </li>
-          <li>JIRA</li>
-          <li>SQL</li>
-          <li>Salesforce</li>
-          <li>Datadog</li>
-          <li>Connectwise</li>
-          <li>Github</li>
-          <li>Metabase</li>
-          <li>DBeaver</li>
-          <li>Ngrok</li>
+          <li class="software">JIRA</li>
+          <li class="software">SQL</li>
+          <li class="software">Salesforce</li>
+          <li class="software">Datadog</li>
+          <li class="software">Connectwise</li>
+          <li class="software">Github</li>
+          <li class="software">Metabase</li>
+          <li class="software">DBeaver</li>
+          <li class="software">Ngrok</li>
         </ul>
       </div>
       <div id="box3">
@@ -119,7 +118,9 @@
                 <img id="imdb" src="images/imdb-logo.png" alt="the logo for the website iMDb. The letters are set on a gold background">
             </a>
       </div>-->
-  <script src="portfolio.js"></script>
+  <script src="portfolio.js">
+    
+  </script>
   </main>
 
 </body>
