@@ -46,7 +46,7 @@ h1{
     
 }
 
-#box1, #box2,#box3{
+#box1,#box2,#box3{
     height: 350px;
     border-radius: 30px;
     width: 100%;
@@ -63,36 +63,22 @@ p{
 }
 
 h2{
-    font-family: "Merienda",Helvetica;;
-
+    font-family: "Merienda",Helvetica;
 }
-#socials{
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 10px;
-
-}
-#LI-logo{
-    height: 100px;
-}
-.column-66 {
-    display: flex;
-    float: left;
+label{
+    font-family: "Merienda",Helvetica;
     width: 100px;
-    height: 700px;
-    padding: 20px;
-    background-color: hsla(0, 0%, 54%, 0.298);
-    align-items: center;
-    display: none;
+    font-size: 1em;
+}
 
-  }
+form{
+    margin-top: 2rem;
+}
+
 @media screen and (max-width:2037px){
     #box2{
-        margin-top: 250px;
+        margin-bottom: 500px;
 
     }
 }
