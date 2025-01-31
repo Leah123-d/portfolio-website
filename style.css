@@ -10,7 +10,6 @@ body{
     height: 190px;
     width: 140px;
     margin-top: 1rem;
-
 }
 
 #card{
@@ -96,7 +95,7 @@ h1{
 p{
     font-size: 1em;
     font-family: Helvetica, sans-serif;
-    color: hsl(0, 0%, 4%);
+    color: #0a0a0a;
 }
 
 h2{
