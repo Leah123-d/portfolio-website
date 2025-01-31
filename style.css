@@ -3,7 +3,6 @@ body{
     height:100%;
     display: flex;
     flex-direction: column;
-    border: solid, black;
 
 }
 
@@ -20,7 +19,7 @@ body{
 }
 
 h1{
-    font-family: "Merienda",Helvetica;
+    font-family: "Merienda",Helvetica !important;
     font-size: 5em;
 }
 
@@ -47,7 +46,6 @@ h1{
     
 }
 
-
 #box1, #box2,#box3{
     height: 350px;
     border-radius: 30px;
@@ -55,7 +53,7 @@ h1{
     padding: 2rem;
     padding-top: 2rem;
     background-color: #ffbd59;
-    align-items: center;
+    align-items: center !important;
 }
 
 p{
@@ -92,4 +90,23 @@ h2{
     display: none;
 
   }
-  /*add a media query to keep columns stacked on wide view can add one for bg too*/
+@media screen and (max-width:2037px){
+    #box2{
+        margin-top: 250px;
+
+    }
+}
+
+@media screen and (max-width: 836px){
+    #box1{
+        margin-top: 600px;
+    }
+}
+
+@media screen and (max-width: 526px){
+    .container3{
+        margin-top: 550px;
+
+    }
+}
+

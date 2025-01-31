@@ -1,4 +1,13 @@
+let searchTimeout;
+
 function search_software() {
+  clearTimeout(searchTimeout); // Clear previous timeouts to debounce
+  searchTimeout = setTimeout(() => {
+    performSearch();
+  }, 300); // Wait 300ms after typing stops
+}
+
+function performSearch() {
   let input = document.getElementById('searchbar').value.trim();
   let x = document.getElementsByClassName('software');
   let found = false;
@@ -9,13 +18,11 @@ function search_software() {
     if (itemText.toLowerCase().includes(input.toLowerCase())) {
       x[i].style.display = "list-item";
 
-      // Scroll and highlight the first match
       if (!found) {
         x[i].scrollIntoView({ behavior: "smooth", block: "center" });
-        x[i].style.backgroundColor = "yellow"; // Highlight the element
+        x[i].style.backgroundColor = "yellow";
         found = true;
 
-        // Remove highlight after 2 seconds
         setTimeout(() => {
           x[i].style.backgroundColor = "";
         }, 2000);
