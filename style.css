@@ -32,6 +32,19 @@ h1{
     gap: 10px;
 
 }
+#header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 .container3{
     display: flex;
     flex-direction: column;
